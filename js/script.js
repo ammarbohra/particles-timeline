@@ -1,10 +1,10 @@
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll >= 10) {
-    $(".navbar").removeClass("transparent");
+    $(".navbar").removeClass("transparent py-md-5");
   }
   else if (scroll < 10) {
-    $(".navbar").addClass("transparent");
+    $(".navbar").addClass("transparent py-md-5");
 }
 });
 

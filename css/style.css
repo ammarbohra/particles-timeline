@@ -21,6 +21,7 @@ body {
 /*NAV*/
 .navbar {
   background: var(--bg);
+  transition: 0.25s;
 }
 .transparent {
   background: transparent!important;
